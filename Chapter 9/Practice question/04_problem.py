@@ -1,6 +1,6 @@
-word = "Donkey" 
+word = "Dockey" 
 
-with open("text.txt", "r") as f:
+with open(rf"C:\Users\Apekshit negi\OneDrive\Documents\Desktop\Python\Chapter 9\Practice question\text.txt", "r") as f:
     content = f.read()
 
 contentNew = content.replace(word, "####")
